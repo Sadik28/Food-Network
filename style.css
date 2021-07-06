@@ -12,17 +12,17 @@ body{
 nav{
     background-image: linear-gradient(#82eefd, blue);
     height: 70px
-    width: 100%;
+    width:100%;
 }
 label{
     color: whitesmoke;
     font-size: 40px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 15px;
     font-weight: 700;
 }
 nav ul{
-    float: right;
+    display: flex;
     margin-right: 25px;
 }
 nav ul li{
@@ -36,28 +36,14 @@ nav ul li a{
     padding: 7px 13px;
     text-transform: uppercase;
 }
+body{font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
 span{
-    color: teal ;
+    color: teal;
 }
 h1{
     font-size: 40px;
-}
-h3{
-    text-align: center;
-}
-.half-width{
-    width: 50%;
-    padding-left: 4%;
-}
-.half-width img{
-    width: 80%;
- 
-}
-.flexible-section{
-    display: flex;
-    margin-bottom: 50px;
-    float: right;
-    padding: 20px;
 }
 .link-button{
     text-decoration: none;
@@ -67,7 +53,48 @@ h3{
     color: whitesmoke;
     font-weight: 700;
 }
-.middle-bg{
-    background-image: url(images/shapes/Frame\ 56.jpg);
-    background-size: cover;
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;   
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
+.backgorund{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-size: 100%;
+    margin: 0;
+    position: relative;
+    height: 400px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.child{
+    text-align: center;
+}
+.card1, .card2, .card3{
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 30px grey;
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: warp;
+    justify-content: space-around;
+}
+.ft-design{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 8px;
 }
